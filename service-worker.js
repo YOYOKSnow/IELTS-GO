@@ -5,24 +5,7 @@ const STATIC_ASSETS = [
   "./index.html",
   "./styles.css",
   "./app.js",
-  "./manifest.json",
-  "./assets/icons/icon.svg",
-  "./assets/icons/icon-192.png",
-  "./assets/icons/icon-512.png",
-  "./assets/sounds/ready-check.mp3",
-  "./assets/sounds/start.mp3",
-  "./assets/sounds/clear.mp3",
-  "./assets/sounds/combo.mp3",
-  "./assets/sounds/victory.mp3",
-  "./assets/sounds/ready-check.wav",
-  "./assets/sounds/start.wav",
-  "./assets/sounds/clear.wav",
-  "./assets/sounds/combo.wav",
-  "./assets/sounds/victory.wav",
-  "./assets/animations/clear.json",
-  "./assets/animations/flower.json",
-  "./assets/animations/coin.json",
-  "./assets/animations/victory.json"
+  "./manifest.json"
 ];
 
 self.addEventListener("install", (event) => {
